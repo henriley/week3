@@ -9,6 +9,14 @@ h1{
     font-size: 300%;
 }
 
+h3{
+    font-size: 150%;
+}
+
+h4{
+    font-size: 125%;
+}
+
 nav a{
     color: orange;
 }
@@ -35,3 +43,37 @@ a.skip:focus{
     height: auto;
 }
 
+.container{
+    display:grid;
+    grid-template-columns: repeat(2, 300px);
+}
+
+img{
+    width: 300px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  table, th, td {
+    border: 3px solid black;
+  }
+
+  th, td{
+      height: 20px;
+  }
+
+table.stats{
+    border-collapse: collapse;
+    width: 20%;
+}
+
+table.stats, th.stats, td.stats{
+    border: 3px solid black;
+}
+
+td.dex {
+    border-bottom: 1px solid black;
+  }
